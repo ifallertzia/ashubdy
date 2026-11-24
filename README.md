@@ -7,7 +7,7 @@ aur AI ko bolna aasan ho ki "ye file me ye badal do".
 Who is this for? → Gallery → Feelings zone → Notes → 14 October timeline + facts →
 Last page (Happiest Birthday Again + photo + Wish Box).
 
-**Naam:** poori site me **Anushree** (kahin bhi "Anushri" nahi hai).
+**Naam:** poori site me **Ashu**.
 
 **Aage-peeche jaane ka ek hi tarika:** neeche wala **Back / Next** bar
 (har page ka apna "Continue" button hata diya gaya hai).
@@ -197,6 +197,19 @@ python3 -m http.server 8000
 ki jagah `js/config.js > gallery.captions` (backup list) se aayenge.
 
 ---
+
+## 🔐 Privacy, PIN, and publishing
+
+The PIN check is a convenience screen only: `js/config.js` is downloaded by every
+visitor, so the PIN cannot protect the page or its photos. Do not put confidential
+content in this static site. Before publishing, review the WhatsApp number, letter,
+photos, and other personal details for anything Ashu or the family would not want
+public. Real access control requires authentication enforced by a server or hosting
+platform, not a PIN comparison in browser JavaScript.
+
+Third-party fonts, confetti, music, and animated images may be blocked or unavailable;
+the site should remain usable without those optional resources. Check source links for
+historical facts in `js/config.js` before presenting them as authoritative.
 
 ## ⚠️ Ek zaroori baat
 

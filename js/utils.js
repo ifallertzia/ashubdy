@@ -13,7 +13,7 @@ function byId(id) {
 }
 
 // {name} / {emoji} jaisi jagahon ko value se replace karta hai
-//   fillTemplate('Hello {name}', { name: 'Anushree' }) => 'Hello Anushree'
+//   fillTemplate('Hello {name}', { name: 'Ashu' }) => 'Hello Ashu'
 function fillTemplate(text, values) {
     return String(text).replace(/\{(\w+)\}/g, (match, key) => {
         return values[key] !== undefined ? values[key] : match;

@@ -9,7 +9,12 @@ body { font-family: 'Quicksand', sans-serif; overflow: hidden; background-color:
 
 /* ================= MAIN APP ================= */
 #main-app { display: none; height: 100vh; width: 100vw; position: relative; }
+/* Dynamic viewport units track mobile browser chrome; retain vh fallback for older browsers. */
 .slide { position: absolute; top: 0; left: 0; height: 100vh; width: 100vw; opacity: 0; transition: opacity 0.8s ease-in-out; pointer-events: none; }
+@supports (height: 100dvh) {
+    #main-app { height: 100dvh; }
+    .slide { height: 100dvh; }
+}
 .slide.active { opacity: 1; pointer-events: auto; }
 
 /* Baaki naye pages ka same pastel background */
