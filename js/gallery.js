@@ -202,6 +202,12 @@ async function initGallery() {
     deckCaptions = await loadCaptions();
     buildDeck();
 
+    // Visible semantic controls make the gallery usable without swipe gestures.
+    const prevButton = byId('gallery-prev');
+    const nextButton = byId('gallery-next');
+    if (prevButton) prevButton.addEventListener('click', deckPrev);
+    if (nextButton) nextButton.addEventListener('click', deckNext);
+
     // Keyboard se bhi (laptop par) — phone par swipe hi hai
     document.addEventListener('keydown', (e) => {
         const slide = byId('slide-6');

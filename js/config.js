@@ -18,13 +18,13 @@ const CONFIG = {
     text: {
         date: '14 • 10',
         title: 'Happy Birthday',
-        name: 'Anushree',                // asli naam
-        heroName: 'Anushree 🌸🥺',       // slide 1 wala naam
-        aka: 'aka Tingu 💗',            // pyar wala naam
+        name: 'Ashu',                // asli naam
+        heroName: 'Ashu 🌸🥺',       // slide 1 wala naam
+        aka: 'aka Ashu 💗',            // pyar wala naam
         eyebrow: '14 • 10 • JUST FOR YOU',
         introSub: "{name}, it's your special day",
-        plaque: 'Tingu',                // cake par likha hua pyara naam
-        questionSub: 'Pick your answer, Tingu 🎀',
+        plaque: 'Ashu',                // cake par likha hua pyara naam
+        questionSub: 'Pick your answer, Ashu 🎀',
         wishTitle: 'Make a Wish',
         wishSub: 'Close your eyes and make a wish ✨',
         wishDoneTitle: 'Wish Granted',
@@ -47,7 +47,7 @@ const CONFIG = {
         factsChip: '14 October — Aapka Din ✨',
 
         // --- Slide 10 (last page) ---
-        finalTitle: 'Happiest Birthday,<br>Tingu! 🎂💗',
+        finalTitle: 'Happiest Birthday,<br>Ashu! 🎂💗',
         finalText: 'Bas itna kehna tha — duniya thodi si chaotic hai, par usme aap jaise log mil jaaye to jeena worth it lagta hai. Hasti rahiye, khati rahiye, aur main hamesha ek text door hoon. 🫂💗',
         photoCaption: 'Ek din sach me… 🫂💗',
         finalLine: '14.10 — officially aapka din. ✨',
@@ -148,8 +148,8 @@ const CONFIG = {
     // ---------- 8. WHO IS THIS FOR? (slide 5) ----------
     who: {
         // Ab sirf ek hi option hai — aur reveal bina tap ke khud dikhta hai
-        name: 'Anushree 🌸',
-        aka: 'meri Tingu 💗',
+        name: 'Ashu 🌸',
+        aka: 'meri Ashu 💗',
         line: 'Yes… ye sab sirf aapke liye hai 🫶🏻',
     },
 
@@ -181,20 +181,20 @@ const CONFIG = {
         noteIcon: '✉️',           // 🔒 ki jagah letter/note wala sign
         items: [
             {
-                title: 'Some things, I wanna confess to you…',
-                text: "Tingu Mingu, I'm really sorry ki aapko video call ke liye itna wait karwata hoon. 🥹❤️ I hope jaldi hi hum call karein aur aapka yeh wait khatam ho jaaye. 🫂💗",
+                title: 'A little note for my sister 💌',
+                text: "Ashu, aap meri favourite partner-in-crime hain. Chahe hum kitni bhi nok-jhok karein, main hamesha aapki team mein hoon. Love you, behen! 🥹❤️",
             },
             {
-                title: 'Woh pehla "Babu" 🫶🏻',
-                text: "Aur mujhe yaad hai jab humari conversation ke beech aapne first time mujhe “Babu” bola tha, hayeee 😭❤️ I swear, woh sunke main dil se khush ho gaya tha, pata nahi kyun but that little moment felt so special to me. 🥹🫶🏻💗",
+                title: 'Hamari sibling wali nok-jhok 😄',
+                text: "Aap mujhe jitna bhi tease kar lo, ghar aapke bina bilkul boring ho. Hamari chhoti-chhoti nok-jhok aur hasi-mazaak meri favourite memories hain. 😄🫶🏻💗",
             },
             {
-                title: 'Aapki woh dance video 💃🏻',
-                text: "Aapki woh dance video jab maine first time dekhi thi, hayeee 😭❤️ uss raat literally 15 baar dekhi thi. Aap dance karte waqt continuously smile kar rahi thi, aur usse pata chalta hai ki aapko dance karna kitna pasand hai. 🥹💗 I hope aapka stage par dance karne ka dream jaldi poora ho. 💃🏻✨️",
+                title: 'Aapka dance wala dream 💃🏻',
+                text: "Aapko dance karte dekhkar hamesha khushi hoti hai. I hope jaldi aap apne dream stage par perform karein aur apne talent se sabka dil jeet lein. Main hamesha aapko cheer karunga! 💃🏻✨️",
             },
             {
-                title: 'Woh ek morning ☀️',
-                text: "Starting mein aap mujhe thodi sad si vibes deti thi, but ek morning jab humari baat hui, aap itni khushi se sab kuch share kar rahi thi, aapki masti, mazaak sab dekhkar mujhe bahut achha laga. 🥹❤️ Idk what changed, but I'm genuinely so happy to see you happy🫶🏻💗",
+                title: 'Aap ghar ki sunshine hain ☀️',
+                text: "Aapki masti, jokes aur smile se ghar ka mahaul hi bright ho jaata hai. Hamesha aise hi khush rahiye, Ashu — hum sab aapse bahut pyaar karte hain. 🥹❤️🫶🏻💗",
             },
         ],
         typeSpeedMs: 14,          // note khulte hi typing ki speed

@@ -52,6 +52,9 @@
     opacity: 0; transform: translateX(-50%) translateY(8px) rotate(-2deg); transition: opacity 0.35s ease, transform 0.35s ease;
 }
 .deck-caption.in { opacity: 1; transform: translateX(-50%) translateY(0) rotate(-2deg); }
+.gallery-controls { display: flex; justify-content: center; gap: 12px; margin: 14px auto 0; }
+.gallery-controls .chip-btn { padding: 10px 16px; }
+.gallery-controls button:focus-visible { outline: 3px solid #8a5468; outline-offset: 3px; }
 
 /* Bahut purane browser me aspect-ratio nahi hota → tab bhi deck dikhe */
 @supports not (aspect-ratio: 3 / 4) {
